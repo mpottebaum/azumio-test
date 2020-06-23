@@ -4,7 +4,7 @@ const FocusAreas = props => {
 
     const renderOptions = () => options.map(
         option => <div
-                    className={isSelected(option.id) ? 'option active' : 'option inactive'}
+                    className={isSelected(option.id) ? 'option active-opt' : 'option inactive-opt'}
                     onClick={() => props.handleClick(option.id)}
                 >
                     <p className='option-text'>{option.name}</p>
@@ -14,7 +14,7 @@ const FocusAreas = props => {
 
     return <div className='page-container'>
         <div className='form-text'>
-            <h1 className='question'>What are you main areas of focus?</h1>
+            <h3 className='form-question'>What are your main areas of focus?</h3>
             <p>This will help us build a personalized experience for you</p>
         </div>
         <div className='options'>
