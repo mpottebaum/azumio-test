@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,45 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.options {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-left: 20pt;
+  margin-right: 20pt;
+}
+
+.option {
+  /* padding: 5pt; */
+  border-radius: 10pt;
+  margin-bottom: 10pt;
+  width: 80pt;
+  height: 40pt;
+  display: table;
+}
+
+.option-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.active {
+  color: white;
+  background-color: purple;
+  border: solid purple;
+}
+
+.inactive {
+  color: grey;
+  border: solid grey;
+
 }
