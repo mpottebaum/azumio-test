@@ -1,0 +1,64 @@
+.page-container {
+    font-family: Arial, sans-serif;
+    margin-bottom: 30pt;
+  }
+  
+  .options {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100pt);
+    column-gap: 45pt;
+    justify-items: space-between;
+    margin-left: 30pt;
+    margin-right: 30t;
+  }
+  
+  .option {
+    display: table;
+    padding: 3pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    border-radius: 7pt;
+    margin-bottom: 10pt;
+    width: 85pt;
+    height: 40pt;
+    cursor: pointer;
+  }
+  
+  .option-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 11pt;
+    font-weight: bold;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+  }
+  
+  .active-opt {
+    color: white;
+    background-color: #424ea6;
+    border: solid #424ea6;
+  }
+  
+  .inactive-opt {
+    color: grey;
+    border: solid rgba(128, 128, 128, .15);
+  }
+  
+  .form-text {
+    text-align: center;
+    margin-bottom: 5pt;
+    margin-left: 30pt;
+    margin-right: 30pt;
+  }
+  
+  .form-question {
+    margin-left: 20pt;
+    margin-right: 20pt;
+    font-size: x-large;
+  }
+
+  .form-sub {
+      font-size: large;
+  }

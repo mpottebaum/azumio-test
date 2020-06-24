@@ -1,4 +1,5 @@
 import React from 'react'
+import '../stylesheets/FocusAreas.css';
 
 const FocusAreas = props => {
 
@@ -15,7 +16,7 @@ const FocusAreas = props => {
     return <div className='page-container'>
         <div className='form-text'>
             <h3 className='form-question'>What are your main areas of focus?</h3>
-            <p>This will help us build a personalized experience for you</p>
+            <p className='form-sub'>This will help us build a personalized experience for you</p>
         </div>
         <div className='options'>
             {renderOptions()}                
